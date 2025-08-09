@@ -1,0 +1,15 @@
+[project]
+name = "joppylib-notebook"
+version = "0.1.0"
+description = "A Jupyter Lab interface for JopPyLib"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "joppylib",
+    "jupyterlab>=4.4.5",
+    "requests>=2.32.4",
+    "rich[jupyter]>=14.1.0",
+]
+
+[tool.uv.sources]
+joppylib = { git = "https://github.com/jeroenkroesen/joppylib.git", rev = "main" }
