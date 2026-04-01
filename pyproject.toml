@@ -6,12 +6,9 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "catppuccin-jupyterlab>=0.2.4",
-    "joppylib",
+    "joppylib>=0.1.0a12",
     "jupyterlab>=4.4.5",
     "jupyterlab-vim>=4.1.4",
     "requests>=2.32.4",
     "rich[jupyter]>=14.1.0",
 ]
-
-[tool.uv.sources]
-joppylib = { git = "https://github.com/jeroenkroesen/joppylib.git", rev = "main" }
